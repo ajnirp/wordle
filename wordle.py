@@ -99,8 +99,7 @@ def check_guess(guess):
     return guess in DICTIONARY
 
 if __name__ == '__main__':
-    # target = choice(DICTIONARY)
-    target = 'BRAGS'
+    target = choice(DICTIONARY)
     eliminated_letters = set()
     for guess_number in range(1, 7):
         valid_guess = True
